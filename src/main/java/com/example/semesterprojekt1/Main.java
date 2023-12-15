@@ -20,15 +20,15 @@ public class Main {
         int valg = input.nextInt();
         switch (valg) {
             case 1:
-                Bruger b=new Bruger("Magnus Hansen","sejestrejest","mag@zealand.dk");
+                Bruger b=new Bruger("Nichlas","sejestrejest","1234");
                 db.opretBruger(b);
                 break;
             case 2:
-                Oenskeseddel s=new Oenskeseddel(2,2,"Amalies Jul 2023");
+                Oenskeseddel s=new Oenskeseddel(1,1,"Damis Jul 2023");
                 db.opretOenskeseddel(s);
                 break;
             case 3:
-                Oenske o = new Oenske(1,2,"Strømper",100,"str. 39-42, hvid","",0);
+                Oenske o = new Oenske(1,1,"Strømper",100,"str. 39-42, hvid","",0);
                 db.opretOenske(o);
                 break;
             case 4:
@@ -44,7 +44,7 @@ public class Main {
                 db.afReserverGave(1);
                 break;
             case 8:
-                ArrayList <Oenske> Liste = db.specifikOenskeliste(1,2);
+                ArrayList <Oenske> Liste = db.specifikOenskeliste(1,1);
                 udskrivOensker(Liste);
                 break;
 
@@ -55,3 +55,17 @@ public class Main {
             System.out.println(Oensker.get(i));
     }
 }
+    public static void main(String[] args) {
+        DbSql db = new DbSql();
+        Scanner input = new Scanner(System.in);
+        System.out.println("1. Opret Bruger");
+        System.out.println("2. Opret ønskeseddel.");
+        System.out.println("3. Tilføj ønske til ønskeseddel.");
+        System.out.println("4. Reserver ønske.");
+        System.out.println("5. Slet ønskeseddel.");
+        System.out.println("6. Slet ønske fra ønskeseddel.");
+        System.out.println("7. Afreserver ønske.");
+        System.out.println("8. Udskriv ønsker");
+        System.out.println("Indtast dit valg.");
+        int valg = input.nextInt();
+        switch (valg) {

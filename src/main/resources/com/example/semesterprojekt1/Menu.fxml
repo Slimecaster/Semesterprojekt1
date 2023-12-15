@@ -3,10 +3,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semesterprojekt1.HelloController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semesterprojekt1.MenuController">
    <children>
-      <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" text="Button" translateX="-100.0" />
-      <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" text="Button" translateX="100.0" />
-      <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="OpretBruger" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToOpretBruger" prefHeight="26.0" prefWidth="113.0" text="Opret bruger" translateX="-100.0" translateY="-25.0" />
+      <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="116.0" text="Opret ønskeseddel" translateX="20.0" translateY="-25.0" />
+      <Button layoutX="244.0" layoutY="188.0" mnemonicParsing="false" text="Gå til ønskeseddel" translateX="-10.0" translateY="50.0" />
    </children>
 </AnchorPane>
