@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.semesterprojekt1.MenuController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semesterprojekt1.GåTilØnskeseddelController">
+   <children>
+      <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToMenu" text="Tilbage" translateX="-250.0" translateY="-150.0" />
+      <ListView layoutX="313.0" layoutY="63.0" prefHeight="301.0" prefWidth="273.0" />
+      <ScrollBar layoutX="579.0" layoutY="63.0" orientation="VERTICAL" prefHeight="301.0" prefWidth="14.0" />
+      <Button fx:id="FjernOenskeseddel" layoutX="71.0" layoutY="237.0" mnemonicParsing="false" text="Fjern ønskeseddel" />
+      <Button fx:id="seOensker" layoutX="78.0" layoutY="155.0" mnemonicParsing="false" onAction="#switchToSeØnsker" text="Se ønskeseddel" />
+   </children>
 </AnchorPane>

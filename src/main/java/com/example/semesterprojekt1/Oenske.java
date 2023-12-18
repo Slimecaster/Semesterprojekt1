@@ -97,7 +97,7 @@ public class Oenske {
                 ", oenskelistenr=" + oenskelistenr +
                 ", navn='" + navn + '\'' +
                 ", pris=" + pris +
-                ", beskrivelse='" + beskrivelse + '\'' +
+                "kr , beskrivelse='" + beskrivelse + '\'' +
                 ", link='" + link + '\'' +
                 ", reserveret=" + reserveret +
                 '}';

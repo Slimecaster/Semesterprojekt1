@@ -2,6 +2,7 @@ package com.example.semesterprojekt1;
 
 public class Oenskeseddel {
 
+
     private int Id;
     private int oenskelistenr;
     private String Navn;
@@ -14,7 +15,10 @@ public class Oenskeseddel {
         Id = id;
         this.oenskelistenr = oenskelistenr;
         Navn = navn;
+
     }
+
+
 
     public int getId() {
         return Id;

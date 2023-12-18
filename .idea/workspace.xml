@@ -4,20 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c709a3bd-a16a-43d9-bd29-92104548d042" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/OpretBruger.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/OpretØnskeseddel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/SeØnskeseddel.fxml" afterDir="false" />
+    <list default="true" id="c709a3bd-a16a-43d9-bd29-92104548d042" name="Changes" comment="Hej">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/GåTilØnskeseddelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/OpretBrugerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/OpretØnskeseddelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/seØnskerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/SeØnsker.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/DbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/DbSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/HelloController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Oenske.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Oenske.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Oenskeseddel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Oenskeseddel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/OpretBruger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/OpretBruger.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/OpretØnskeseddel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/OpretØnskeseddel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/SeØnskeseddel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/SeØnskeseddel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/semesterprojekt1/hello-view.fxml" beforeDir="false" />
     </list>
-    <list id="12b7456a-c4a6-4ed1-a56b-e227201f0548" name="Changes by Bruger" comment="" />
+    <list id="12b7456a-c4a6-4ed1-a56b-e227201f0548" name="Changes by Bruger" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/DbSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/DbSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="JavaFXApplication" />
         <option value="Class" />
-        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -49,6 +60,44 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/Main.java">
+      <ranges>
+        <range start1="18" end1="18" start2="18" end2="21" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="30" end1="31" start2="33" end2="34" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="37" end1="38" start2="40" end2="41" changelist="c709a3bd-a16a-43d9-bd29-92104548d042" />
+        <range start1="49" end1="50" start2="52" end2="64" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="56" end1="56" start2="70" end2="83" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="57" end1="71" start2="84" end2="84" changelist="c709a3bd-a16a-43d9-bd29-92104548d042" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/example/semesterprojekt1/DbSql.java">
+      <ranges>
+        <range start1="15" end1="16" start2="15" end2="16" changelist="c709a3bd-a16a-43d9-bd29-92104548d042" />
+        <range start1="22" end1="24" start2="22" end2="24" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="25" end1="26" start2="25" end2="26" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="29" end1="30" start2="29" end2="30" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="45" end1="46" start2="45" end2="46" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="48" end1="49" start2="48" end2="49" changelist="c709a3bd-a16a-43d9-bd29-92104548d042" />
+        <range start1="59" end1="60" start2="59" end2="60" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="62" end1="63" start2="62" end2="63" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="74" end1="75" start2="74" end2="75" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="77" end1="78" start2="77" end2="78" changelist="c709a3bd-a16a-43d9-bd29-92104548d042" />
+        <range start1="87" end1="88" start2="87" end2="89" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="98" end1="99" start2="99" end2="101" changelist="c709a3bd-a16a-43d9-bd29-92104548d042" />
+        <range start1="101" end1="101" start2="103" end2="104" changelist="c709a3bd-a16a-43d9-bd29-92104548d042" />
+        <range start1="109" end1="109" start2="112" end2="113" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="112" end1="113" start2="116" end2="117" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="116" end1="118" start2="120" end2="122" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="128" end1="130" start2="132" end2="134" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="131" end1="134" start2="135" end2="138" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="135" end1="146" start2="139" end2="150" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="147" end1="171" start2="151" end2="175" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="172" end1="177" start2="176" end2="222" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+        <range start1="178" end1="181" start2="223" end2="223" changelist="12b7456a-c4a6-4ed1-a56b-e227201f0548" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -63,18 +112,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/nd070/OneDrive/sqlite-jdbc-3.36.0_3(1).jar",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nd070/OneDrive/Dokumenter/sqlite-jdbc-3.36.0_3.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "CodeWithMe"
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-8336523bb0d9-ce1e98ff" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -116,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702636101984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Hej">
+      <option name="closed" value="true" />
+      <created>1702643024141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702643024141</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
